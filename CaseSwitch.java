@@ -1,0 +1,19 @@
+public class CaseSwitch{
+
+    public static void main(String [] args) {
+        String color = "Blue";
+        switch(color){
+        case  "Blue":
+            System.out.println("My favorite color is Blue");
+        case  "Red":
+            System.out.println("My favorite color is Red");
+        case  "Green":
+            System.out.println("My favorite color is Green");
+        default:
+            System.out.println("My favorite color is Black");
+        }
+    }
+}
+
+// pada string 'S'nya huruf besar
+// case 80 diganti case "Blue" dan seterusnya
